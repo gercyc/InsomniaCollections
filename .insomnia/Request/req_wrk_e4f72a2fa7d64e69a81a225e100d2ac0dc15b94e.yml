@@ -1,0 +1,54 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac0dc15b94e
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380150
+created: 1661777380150
+url: "{{ base_url }}/api/Delivery/LoginRefresh"
+name: /api/Delivery/LoginRefresh
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "userName": "string",
+      "accessToken": "string",
+      "accessTokenExpireDate": "2022-08-29T12:49:39.596Z",
+      "refreshToken": "string",
+      "refreshTokenExpireDate": "2022-08-29T12:49:39.596Z",
+      "issuedAt": "2022-08-29T12:49:39.596Z",
+      "profiles": [
+        {
+          "kind": 0
+        }
+      ],
+      "photo": "string",
+      "permissions": [
+        {
+          "name": "string",
+          "isGrantedApp": true
+        }
+      ],
+      "profileKindSelected": 0,
+      "deepLinkSolarPay": {
+        "link": "string",
+        "googleLink": "string",
+        "appleLink": "string",
+        "banner": "string"
+      },
+      "userBaseId": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777380150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

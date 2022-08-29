@@ -1,0 +1,24 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac013f3804b
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379613
+created: 1661777379613
+url: "{{ base_url }}/api/VendorAttachment"
+name: /api/VendorAttachment
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: filter
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1661777379613
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

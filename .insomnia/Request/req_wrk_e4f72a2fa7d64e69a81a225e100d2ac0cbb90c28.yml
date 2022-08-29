@@ -1,0 +1,55 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac0cbb90c28
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379604
+created: 1661777379604
+url: "{{ base_url }}/api/d2c/Webhooks/payments"
+name: /api/d2c/Webhooks/payments
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "payment_authorization": {
+        "payment_identifier": "string",
+        "merchant_payment_id": "string",
+        "order_number": "string",
+        "status": "string",
+        "status_reason": "string",
+        "status_date": "2022-08-29T12:49:39.598Z",
+        "payment_date": "2022-08-29T12:49:39.598Z"
+      },
+      "card_authorization": {
+        "acquirer_name": "string",
+        "acquirer_response_code": "string",
+        "authorization_code": "string"
+      },
+      "antifraud_response": {
+        "score": "string",
+        "analisys": [
+          {
+            "antifraud_system": "string",
+            "result": null
+          }
+        ]
+      },
+      "card_info": {
+        "card_number": "string",
+        "holder_name": "string",
+        "brand": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777379604
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

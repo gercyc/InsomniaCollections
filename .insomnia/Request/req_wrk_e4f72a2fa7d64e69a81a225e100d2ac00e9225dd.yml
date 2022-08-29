@@ -1,0 +1,27 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac00e9225dd
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380113
+created: 1661777380113
+url: "{{ base_url }}/api/Delivery/UpdateRateDelivery"
+name: /api/Delivery/UpdateRateDelivery
+description: ""
+method: PUT
+body: {}
+parameters:
+  - name: RateDelivery
+    disabled: true
+    value: "0"
+  - name: DeliveryRadius
+    disabled: true
+    value: "0"
+headers: []
+authentication: {}
+metaSortKey: -1661777380113
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

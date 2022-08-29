@@ -1,0 +1,58 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac082fa2489
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379725
+created: 1661777379725
+url: "{{ base_url }}/api/TelSell/Order"
+name: /api/TelSell/Order
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "paymentMethodCode": "string",
+      "amount": 0,
+      "deliveryForecastDate": "2022-08-29T12:49:39.597Z",
+      "type": 0,
+      "draft": true,
+      "customerCode": "string",
+      "focusDay": true,
+      "discountAmount": 0,
+      "grossAmount": 0,
+      "attendanceId": 0,
+      "dilationDays": 0,
+      "summerTerm": 0,
+      "items": [
+        {
+          "productCode": "string",
+          "quantity": 0,
+          "promotionCode": "string",
+          "amount": 0,
+          "discountAmount": 0,
+          "priceTable": "string",
+          "productName": "string",
+          "packageDescription": "string",
+          "packageAmount": 0,
+          "label": "string",
+          "observation": "string",
+          "unit": 0,
+          "justificationId": 0,
+          "expirationDate": "2022-08-29T12:49:39.597Z"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777379725
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

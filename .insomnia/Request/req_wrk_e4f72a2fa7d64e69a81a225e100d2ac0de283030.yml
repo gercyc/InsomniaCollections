@@ -1,0 +1,30 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac0de283030
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379940
+created: 1661777379940
+url: "{{ base_url }}/api/TelSell/DialerAgent/call/end"
+name: /api/TelSell/DialerAgent/call/end
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "callId": "string",
+      "tag": "string",
+      "queueId": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777379940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

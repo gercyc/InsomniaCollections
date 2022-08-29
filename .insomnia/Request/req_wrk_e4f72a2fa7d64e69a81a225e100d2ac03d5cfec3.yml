@@ -1,0 +1,36 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac03d5cfec3
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380242
+created: 1661777380242
+url: "{{ base_url }}/api/AppFAQs"
+name: /api/AppFAQs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "question": "string",
+      "answer": "string",
+      "order": 0,
+      "categoryId": 0,
+      "category": {
+        "id": 0,
+        "name": "string"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777380242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

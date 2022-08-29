@@ -1,0 +1,21 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac06ef80404
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379610
+created: 1661777379610
+url: "{{ base_url }}/api/VendorCoordinates/{{ id }}"
+name: /api/VendorCoordinates/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1661777379610
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

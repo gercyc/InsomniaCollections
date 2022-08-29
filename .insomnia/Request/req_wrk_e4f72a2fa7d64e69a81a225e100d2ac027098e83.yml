@@ -1,0 +1,32 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac027098e83
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380076
+created: 1661777380076
+url: "{{ base_url }}/api/Delivery/ChangeOrderItem"
+name: /api/Delivery/ChangeOrderItem
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "orderId": 0,
+      "itemId": 0,
+      "newProductId": 0,
+      "quantity": 0,
+      "isCancel": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777380076
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

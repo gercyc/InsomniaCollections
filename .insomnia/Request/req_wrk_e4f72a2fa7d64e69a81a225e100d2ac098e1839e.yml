@@ -1,0 +1,21 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac098e1839e
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379645
+created: 1661777379645
+url: "{{ base_url }}/api/TelSell/ServiceHistory/ServiceType"
+name: /api/TelSell/ServiceHistory/ServiceType
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1661777379645
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

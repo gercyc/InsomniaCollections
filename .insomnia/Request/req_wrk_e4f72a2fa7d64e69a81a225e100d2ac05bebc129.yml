@@ -1,0 +1,38 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac05bebc129
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379634
+created: 1661777379634
+url: "{{ base_url }}/api/TelSell/ServiceHistory"
+name: /api/TelSell/ServiceHistory
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "costumerCode": "string",
+      "description": "string",
+      "occurrenceId": 0,
+      "value": "string",
+      "callId": "string",
+      "positived": true,
+      "otherType": true,
+      "unit": "string",
+      "route": "string",
+      "channel": "string",
+      "subChannel": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777379634
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

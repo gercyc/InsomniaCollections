@@ -1,0 +1,24 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac017f06204
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380318
+created: 1661777380318
+url: "{{ base_url }}/api/Account/ForgotPassword"
+name: /api/Account/ForgotPassword
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: documentNumber
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1661777380318
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

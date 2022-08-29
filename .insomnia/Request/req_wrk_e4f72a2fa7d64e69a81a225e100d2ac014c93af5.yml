@@ -1,0 +1,45 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac014c93af5
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379641
+created: 1661777379641
+url: "{{ base_url }}/api/TelSell/ServiceHistory/SupervisorStatus/Summary"
+name: /api/TelSell/ServiceHistory/SupervisorStatus/Summary
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: rotas
+    disabled: true
+    value: string
+  - name: unidade
+    disabled: true
+    value: string
+  - name: mercado
+    disabled: true
+    value: string
+  - name: canal
+    disabled: true
+    value: string
+  - name: perfilOperacao
+    disabled: true
+    value: string
+  - name: periodoInicial
+    disabled: true
+    value: 2022-08-29T12:49:39.597Z
+  - name: periodoFinal
+    disabled: true
+    value: 2022-08-29T12:49:39.597Z
+  - name: operador
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1661777379641
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

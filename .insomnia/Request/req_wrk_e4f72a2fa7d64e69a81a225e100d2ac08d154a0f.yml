@@ -1,0 +1,45 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac08d154a0f
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379695
+created: 1661777379695
+url: "{{ base_url }}/api/Orders"
+name: /api/Orders
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "paymentMethodCode": "string",
+      "rate": 0,
+      "comments": "string",
+      "amount": 0,
+      "deliveryForecastDate": "2022-08-29T12:49:39.597Z",
+      "cacheUpdateDate": "2022-08-29T12:49:39.597Z",
+      "items": [
+        {
+          "productCode": "string",
+          "quantity": 0,
+          "promotionCode": "string",
+          "amount": 0,
+          "priceTable": "string",
+          "productName": "string",
+          "packageDescription": "string",
+          "packageAmount": 0
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777379695
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

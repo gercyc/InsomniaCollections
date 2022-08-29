@@ -1,0 +1,34 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac0297fcba3
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380024
+created: 1661777380024
+url: "{{ base_url }}/api/Delivery/UpdateClientData"
+name: /api/Delivery/UpdateClientData
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "string",
+      "phoneNumber": "string",
+      "email": "string",
+      "cpf": "string"
+    }
+parameters:
+  - name: verificationCode
+    disabled: true
+    value: string
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777380024
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

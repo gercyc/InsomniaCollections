@@ -1,0 +1,24 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac0e513e0ad
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777379850
+created: 1661777379850
+url: "{{ base_url }}/api/TelSell/MailingLists/{{ id }}/active"
+name: /api/TelSell/MailingLists/{id}/active
+description: ""
+method: PUT
+body: {}
+parameters:
+  - name: value
+    disabled: true
+    value: "true"
+headers: []
+authentication: {}
+metaSortKey: -1661777379850
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

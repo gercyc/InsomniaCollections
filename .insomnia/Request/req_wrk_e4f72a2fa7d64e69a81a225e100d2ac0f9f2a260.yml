@@ -1,0 +1,45 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac0f9f2a260
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380223
+created: 1661777380223
+url: "{{ base_url }}/api/TelSell/Customer"
+name: /api/TelSell/Customer
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: unit
+    disabled: true
+    value: string
+  - name: route
+    disabled: true
+    value: string
+  - name: code
+    disabled: true
+    value: string
+  - name: companyName
+    disabled: true
+    value: string
+  - name: company
+    disabled: true
+    value: string
+  - name: cpf
+    disabled: true
+    value: string
+  - name: cnpj
+    disabled: true
+    value: string
+  - name: attendanceDay
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1661777380223
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

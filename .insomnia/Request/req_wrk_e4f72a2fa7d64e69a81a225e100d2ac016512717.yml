@@ -1,0 +1,42 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac016512717
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380033
+created: 1661777380033
+url: "{{ base_url }}/api/Delivery/CreateGlobalProduct"
+name: /api/Delivery/CreateGlobalProduct
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 0,
+      "deliveryCatalogId": 0,
+      "deliveryCategoryId": 0,
+      "deliveryProductId": 0,
+      "price": 0,
+      "promotion": 0,
+      "quantityStock": 0,
+      "showInCatalog": "string",
+      "status": 0,
+      "image": "string",
+      "productName": "string",
+      "productBrand": "string",
+      "productWeight": "string",
+      "productMinBuyWeight": 0,
+      "productEanCode": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777380033
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

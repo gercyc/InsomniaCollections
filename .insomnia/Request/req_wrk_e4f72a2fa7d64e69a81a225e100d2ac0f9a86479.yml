@@ -1,0 +1,32 @@
+_id: req_wrk_e4f72a2fa7d64e69a81a225e100d2ac0f9a86479
+type: Request
+parentId: wrk_e4f72a2fa7d64e69a81a225e100d2ac0
+modified: 1661777380320
+created: 1661777380320
+url: "{{ base_url }}/api/Account/Register"
+name: /api/Account/Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "document": "string",
+      "email": "string",
+      "phoneNumber": "string",
+      "password": "string",
+      "verificationCode": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661777380320
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
